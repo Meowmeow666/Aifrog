@@ -19,6 +19,7 @@ let label = "listening";
 let soundModelURL = 'https://meowmeow666.github.io/Aifrog/model.json';
 
 
+
 function preload() {
   // Load the model
   classifier = ml5.soundClassifier(soundModelURL);
